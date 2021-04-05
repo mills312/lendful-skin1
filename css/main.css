@@ -1,0 +1,75 @@
+
+
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #fff;
+}
+.navbar {
+    background:#ffff;
+}
+.navbar-white {
+    background: rgba(250, 250, 250, 0.80);
+}
+.navbar-toggler-icon{
+    border-color: #199fc6;
+}
+.nav-link,
+.navbar-brand {
+    color: #199fc6;
+    cursor: pointer;
+}
+.navbar-brand img {
+    margin-top: 0.5em;
+    width: 155px;
+}
+.navbar-cobrand{
+    width: 100%;
+    text-align: left;
+}
+.navbar-cobrand img {
+    margin-top: 0.5em;
+    width: 155px;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color: #000;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+.navbar-nav {
+    text-align: right;
+}
+.navbar-nav > li > a {
+margin-bottom: -1px;
+padding-top: 0.2em;
+padding-bottom: 0.2em;
+font-size: 1.0em;
+font-weight: 500;
+border-bottom: 1px solid transparent;
+}
+.navbar-nav > li > a.active,
+.navbar-nav > li > a:hover {
+border-color: #199fc6;
+}
+
+
+.bg-landing{
+  position: relative;
+  background-image: url('../images/bg/louise.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.home {
+    margin: 0 auto;
+    max-width: 600px;
+    padding-top: 81px;
+    color: #ffffff;
+  }
+
